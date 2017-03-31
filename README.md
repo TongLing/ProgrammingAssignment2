@@ -2,16 +2,17 @@
 
 Hi! Welcome to review my code. 
 
-I recommend you copying my code and run it in your working directory
-So that you could clearly see if it works well. :)
+I recommend you copying my code and run it in your working directory so that you will clearly see if it works well. :)
 
-To Run my code, please see the guide:
+To run my code, please see the guide:
   
-1. Create a new .R file in your working directory and paste my code, rename it as “makeCacheMatrix.R”.
+1. Create a new .R file in your working directory and paste my code, and rename it as “makeCacheMatrix.R”.
 
 2. Run the following commands:
   
 ```R
+# > check if the file was in the directory
+# > source("makeCacheMatrix.R") 
 # > x <- rbind(c(0.5, -1/4), c(-1/4, 0.))
 # > x <- rbind(c(0.5, -1/4), c(-1/4, 0.5))
 # > m <- makeCacheMatrix(x)
