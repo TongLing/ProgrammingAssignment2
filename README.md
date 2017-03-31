@@ -1,5 +1,40 @@
 ### Introduction
 
+Hi! Welcome to review my code. 
+
+I recommend you copying my code and run it in your working directory
+So that you could clearly see if it works well. :)
+
+To Run my code, please see the guide:
+  
+1. Create a new .R file in your working directory and paste my code, rename it as “makeCacheMatrix.R”.
+
+2. Run the following commands:
+  
+```R
+# > x <- rbind(c(0.5, -1/4), c(-1/4, 0.))
+# > x <- rbind(c(0.5, -1/4), c(-1/4, 0.5))
+# > m <- makeCacheMatrix(x)
+# > m$get()
+#       [,1]  [,2]
+# [1,]  0.50 -0.25
+# [2,] -0.25  0.50
+# > cacheSolve(m)
+#          [,1]     [,2]
+# [1,] 2.666667 1.333333
+# [2,] 1.333333 2.666667
+# > cacheSolve(m)
+# getting cached data.
+# [,1]     [,2]
+# [1,] 2.666667 1.333333
+# [2,] 1.333333 2.666667
+#
+```
+
+Thank you very much!
+
+### Introduction
+
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
 For example, taking the mean of a numeric vector is typically a fast
